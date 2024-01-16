@@ -1,0 +1,144 @@
+html {
+    background-color: rgba(255, 251, 250, 0.74);
+    font-family: 'Playfair Display', serif;
+    font-size: 100%;
+    
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+/*header*/
+.fixed-bar {
+    height: 70px;
+    
+}
+.page-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(133, 182, 255);
+    color: rgb(245, 245, 234);
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+} 
+
+/*navi*/
+a:hover {
+    color:red
+}
+.navigation {
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    width: 20%;
+    background-color: rgba(224, 223, 223, 0.986);
+    font-family: 'Abel', sans-serif;
+    font-size: 32px;
+    font-size: 0.9rem;
+}
+
+
+.navigation-2
+    
+/*main*/
+
+.one-image {
+    height: 400px 100%;
+    width: 100%;    
+}
+.fashion-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*.fashion-images img*/ 
+    
+.quote {   
+    bottom: 18.4px;
+    background-color: rgb(176, 250, 234);
+    color: rgb(44, 33, 17);
+    text-align: center;
+    margin: 0;
+    font-size: 32px;
+    font-size: 1rem; 
+}
+
+/*footer*/
+
+.review-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 7rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 7rem;
+    color:tomato;
+    font-family: 'Titan One', cursive;
+    font-size: 2rem  
+}
+
+.two-image {
+    height: 200px 100%;
+    width: 15%; 
+}
+
+.two-image-p {
+    margin-left: 30px;
+}
+
+@media (min-width: 400px) {
+    .navigation li {
+        font-size: 1.2rem;
+    }  
+    .fashion{
+        display: none;
+    }  
+    .one-image {
+        height: 400px 100%;
+        width: 100%;    
+    }
+    
+}
+
+@media (min-width: 700px) {
+    .one-image {
+        width: 50%;    
+    }
+
+    .fashion {
+        background-color: rgb(195, 150, 236);
+        padding: 0;
+        display: flex;
+    }
+
+    .fashion p {
+        background-color: rgb(176, 250, 234);
+        color: rgb(44, 33, 17);
+        text-align: center;
+        margin: 0;
+        width: 50%;
+        font-size: 1rem;
+    
+    }
+  
+               
+}
